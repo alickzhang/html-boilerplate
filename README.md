@@ -80,11 +80,11 @@ module.exports = {
   }
 }
 
-``` js
+```
 
 ### create postcss.config.js
 
-```
+``` js
 
 module.exports = {
   plugins: [
