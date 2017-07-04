@@ -12,6 +12,7 @@
 ``` bash
 
 $ cd html-boilerplate && npm install
+$ npm run build
 $ npm run dev
 
 ```
@@ -79,7 +80,7 @@ module.exports = {
   }
 }
 
-```
+``` js
 
 ### create postcss.config.js
 
@@ -111,3 +112,13 @@ module.exports = {
 ```
 
 ### edit package.json
+
+``` json
+
+"scripts": {
+  "start": "webpack --watch",
+  "build": "webpack",
+  "dev": "webpack-dev-server --output-public-path=/build/"
+}
+
+```

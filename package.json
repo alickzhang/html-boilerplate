@@ -6,8 +6,7 @@
   "scripts": {
     "start": "webpack --watch",
     "build": "webpack",
-    "dev": "webpack-dev-server --output-public-path=/build/",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --output-public-path=/build/"
   },
   "keywords": [],
   "author": "Alick Zhang",
