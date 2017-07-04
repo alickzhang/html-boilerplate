@@ -6,13 +6,14 @@
 * ES6
 * jQuery
 * Autoprefixer
+* Normalize CSS
+* Bootstrap
 
 ## Start
 
 ``` bash
 
 $ cd html-boilerplate && npm install
-$ npm run build
 $ npm run dev
 
 ```
