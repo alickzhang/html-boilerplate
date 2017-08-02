@@ -1,12 +1,11 @@
+import 'bootstrap'
 import 'normalize.css'
-import 'bootstrap/dist/js/bootstrap.js'
-import '../css/main.css'
+import 'bootstrap/dist/css/bootstrap.css'
+import '../css/main.scss'
 
 const App = {
   init: function() {
-    $('#submit').on('click', function(e) {
-      console.log('submit')
-    })
+
   }
 }
 
